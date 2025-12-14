@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SnackyGo - Casablanca</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- Header / Hero -->
+<header id="home">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Big one🍔</h1>
+    <p>Le goût qui fait revenir 😋</p>
+    <a href="https://wa.me/212643540399" class="btn-whatsapp" target="_blank">
+      <i class="fab fa-whatsapp"></i> Commander maintenant
+    </a>
+  </div>
+</header>
+
+<!-- Navigation -->
+<nav>
+  <ul>
+    <li><a href="#home"><i class="fas fa-home"></i> Accueil</a></li>
+    <li><a href="#menu"><i class="fas fa-utensils"></i> Menu</a></li>
+    <li><a href="#gallery"><i class="fas fa-images"></i> Galerie</a></li>
+    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    <li><a href="#location"><i class="fas fa-map-marker-alt"></i> Localisation</a></li>
+  </ul>
+</nav>
+
+<!-- Menu Section -->
+<section id="menu">
+  <h2><i class="fas fa-utensils"></i> Menu</h2>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="boissons">🥤 Boissons</button>
+    <button class="tab-btn" data-tab="tacos">🌮 Tacos</button>
+    <button class="tab-btn" data-tab="wraps">🌯 Wraps</button>
+    <button class="tab-btn" data-tab="burgers">🍔 Burgers</button>
+  </div>
+
+  <!-- Tab Contents -->
+  <div class="tab-content active" id="boissons">
+    <div class="item">
+      <p class="name">Coca-Cola</p>
+      <p class="price">MAD 8</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Coca-Cola" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Sprite</p>
+      <p class="price">MAD 8</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Sprite" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Fanta</p>
+      <p class="price">MAD 8</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Fanta" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Pom's</p>
+      <p class="price">MAD 7</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Pom's" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Eau minérale</p>
+      <p class="price">MAD 5</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Eau%20minérale" target="_blank">Commander</a>
+    </div>
+  </div>
+
+  <div class="tab-content" id="tacos">
+    <div class="item">
+      <p class="name">Tacos Poulet</p>
+      <p class="price">MAD 25</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Tacos%20Poulet" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Tacos Viande</p>
+      <p class="price">MAD 30</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Tacos%20Viande" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Tacos Mixte</p>
+      <p class="price">MAD 35</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Tacos%20Mixte" target="_blank">Commander</a>
+    </div>
+  </div>
+
+  <div class="tab-content" id="wraps">
+    <div class="item">
+      <p class="name">Wrap Poulet</p>
+      <p class="price">MAD 24</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Wrap%20Poulet" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Wrap Viande</p>
+      <p class="price">MAD 28</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Wrap%20Viande" target="_blank">Commander</a>
+    </div>
+  </div>
+
+  <div class="tab-content" id="burgers">
+    <div class="item">
+      <p class="name">Burger Classique</p>
+      <p class="price">MAD 22</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Burger%20Classique" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Cheeseburger</p>
+      <p class="price">MAD 28</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Cheeseburger" target="_blank">Commander</a>
+    </div>
+    <div class="item">
+      <p class="name">Burger Double</p>
+      <p class="price">MAD 35</p>
+      <a class="btn-commande" href="https://wa.me/212643540399?text=Je%20veux%20commander%20Burger%20Double" target="_blank">Commander</a>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery">
+  <h2><i class="fas fa-images"></i> Galerie</h2>
+  <div class="gallery-grid">
+    <img src="images/Screenshot 2025-12-13 182605.png" alt="Plat 1">
+    <img src="images/Screenshot 2025-12-13 193228.png" alt="Plat 2">
+    <img src="images/Screenshot 2025-12-13 193239.png" alt="Plat 3">
+    <img src="images/Screenshot 2025-12-13 193259.png" alt="Plat 4">
+    <img src="images/Screenshot 2025-12-13 182605.png" alt="Plat 5">
+    <img src="images/mahal.png" alt="Plat 6">
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2><i class="fas fa-envelope"></i> Contact</h2>
+  <p>📱 WhatsApp: <a href="https://wa.me/212643540399" target="_blank"><i class="fab fa-whatsapp"></i> +212 643-540399</a></p>
+  <form id="contactForm">
+    <input type="text" name="name" placeholder="Nom" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Votre message..." required></textarea>
+    <button type="submit"><i class="fas fa-paper-plane"></i> Envoyer</button>
+  </form>
+</section>
+
+<!-- Location -->
+<section id="location">
+  <h2><i class="fas fa-map-marker-alt"></i> Localisation</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.123456789!2d-7.611111!3d33.573055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdxxxxxxxxx!2sCasablanca!5e0!3m2!1sfr!2sma!4v1700000000000" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 SnackyGo. Tous droits réservés.</p>
+  <div class="social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
